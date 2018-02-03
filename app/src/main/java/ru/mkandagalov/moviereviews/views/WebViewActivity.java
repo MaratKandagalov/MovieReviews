@@ -28,13 +28,7 @@ public class WebViewActivity extends AppCompatActivity {
                     return super.shouldOverrideUrlLoading(view, request);
                 }
             }
-
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                return shouldOverrideUrlLoading(view, url);
-            }
         });
         mWebView.loadUrl(String.valueOf(getIntent().getData()));
-
     }
 }
