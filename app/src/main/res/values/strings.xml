@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MovieReviews</string>
+    <string name="read_more">Read More</string>
+    <string name="intent_chooser_title">Choose action:</string>
 </resources>
